@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.lifehacker.ru/wp-content/uploads/2018/10/6176B654-C864-48A2-820F-9082D6327793_1538417911-288x144.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    /* background-position: center; */
+    height: 1000px;
+}
+.navigation {
+    /* position: fixed; */
+    /* position: relative; */
+    background-color: #fff;
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    font-family: cursive;
+    cursor: pointer;
+    font-weight: 500;
+}
+.navigation button {
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+.main {
+    /* background-color: aqua; */
+    margin: 80px 0px 0px 20px;
+    padding: 120px;
+    text-align: center;
+    height: 150px;
+    width: 350px;
+}
+.main h2, p {
+    color: #363636;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 150;
+} 
+.first {
+    background-color: #0279E9;
+    color: #fff;
+    /* outline: none; */
+    border: 1px solid #0279E9;
+    padding: 7px 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.second {
+    background-color: transparent;
+    color: #0279E9;
+    outline: none;
+    border: 1px solid #0279E9;
+    padding: 7px 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.main h2 {
+    font-size: 30px;
+}
